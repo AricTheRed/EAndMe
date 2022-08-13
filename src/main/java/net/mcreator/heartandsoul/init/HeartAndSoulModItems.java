@@ -17,6 +17,7 @@ import net.mcreator.heartandsoul.item.SpeedySoulCharmItem;
 import net.mcreator.heartandsoul.item.SoulStoneItem;
 import net.mcreator.heartandsoul.item.ResistiveHeartCharmItem;
 import net.mcreator.heartandsoul.item.RegenativeHeartCharmItem;
+import net.mcreator.heartandsoul.item.PpItem;
 import net.mcreator.heartandsoul.item.PowerfulSoulCharmItem;
 import net.mcreator.heartandsoul.item.LuckyHeartCharmItem;
 import net.mcreator.heartandsoul.item.HeavyHeartCharmItem;
@@ -41,6 +42,7 @@ public class HeartAndSoulModItems {
 	public static final RegistryObject<Item> POWERFUL_SOUL_CHARM = REGISTRY.register("powerful_soul_charm", () -> new PowerfulSoulCharmItem());
 	public static final RegistryObject<Item> SPEEDY_SOUL_CHARM = REGISTRY.register("speedy_soul_charm", () -> new SpeedySoulCharmItem());
 	public static final RegistryObject<Item> HASTY_SOUL_CHARM = REGISTRY.register("hasty_soul_charm", () -> new HastySoulCharmItem());
+	public static final RegistryObject<Item> PP = REGISTRY.register("pp", () -> new PpItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

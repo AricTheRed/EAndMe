@@ -319,6 +319,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Pp",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pp"
     }
   ],
   "variable_elements": [
@@ -344,7 +352,8 @@
       "item.heart_and_soul.hasty_soul_charm": "Hasty Soul Charm",
       "item.heart_and_soul.speedy_soul_charm": "Speedy Heart Charm",
       "block.heart_and_soul.heart_ore": "Heart Ore",
-      "itemGroup.tabheart_and_soul": "Heart And Soul"
+      "itemGroup.tabheart_and_soul": "Heart And Soul",
+      "item.heart_and_soul.pp": "Pp"
     }
   },
   "foldersRoot": {
@@ -368,5 +377,5 @@
     "modElementsPackage": "net.mcreator.heartandsoul",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202200233511
 }
