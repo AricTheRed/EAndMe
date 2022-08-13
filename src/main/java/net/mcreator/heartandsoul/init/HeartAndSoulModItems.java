@@ -25,6 +25,7 @@ import net.mcreator.heartandsoul.item.HeartStoneItem;
 import net.mcreator.heartandsoul.item.HealtyHeartCharmItem;
 import net.mcreator.heartandsoul.item.HastySoulCharmItem;
 import net.mcreator.heartandsoul.item.FireyHeartCharmItem;
+import net.mcreator.heartandsoul.item.COCKANDBALLSItem;
 import net.mcreator.heartandsoul.HeartAndSoulMod;
 
 public class HeartAndSoulModItems {
@@ -43,6 +44,7 @@ public class HeartAndSoulModItems {
 	public static final RegistryObject<Item> SPEEDY_SOUL_CHARM = REGISTRY.register("speedy_soul_charm", () -> new SpeedySoulCharmItem());
 	public static final RegistryObject<Item> HASTY_SOUL_CHARM = REGISTRY.register("hasty_soul_charm", () -> new HastySoulCharmItem());
 	public static final RegistryObject<Item> PP = REGISTRY.register("pp", () -> new PpItem());
+	public static final RegistryObject<Item> COCKANDBALLS = REGISTRY.register("cockandballs", () -> new COCKANDBALLSItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
