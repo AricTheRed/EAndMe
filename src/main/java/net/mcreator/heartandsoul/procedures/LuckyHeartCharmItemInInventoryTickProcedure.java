@@ -18,6 +18,8 @@ public class LuckyHeartCharmItemInInventoryTickProcedure {
 				: false) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 60, 0, (false), (false)));
+			if (entity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 60, 0, (false), (false)));
 		} else {
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeAllEffects();

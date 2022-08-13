@@ -17,7 +17,7 @@ public class SpeedySoulCharmItemInInventoryTickProcedure {
 				? _playerHasItem.getInventory().contains(new ItemStack(HeartAndSoulModItems.SPEEDY_SOUL_CHARM.get()))
 				: false) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 1, (false), (false)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 0, (false), (false)));
 		} else {
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeAllEffects();
