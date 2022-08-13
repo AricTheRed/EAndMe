@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "heart_and_soul:heart_stone"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:iron_axe"
+    }
+  ],
+  "result": {
+    "item": "heart_and_soul:powerful_soul_charm",
+    "count": 1
+  }
+}

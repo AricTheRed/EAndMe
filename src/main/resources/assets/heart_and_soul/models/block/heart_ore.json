@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "heart_and_soul:blocks/heart_ore",
+    "up": "heart_and_soul:blocks/heart_ore",
+    "north": "heart_and_soul:blocks/heart_ore",
+    "east": "heart_and_soul:blocks/heart_ore",
+    "south": "heart_and_soul:blocks/heart_ore",
+    "west": "heart_and_soul:blocks/heart_ore",
+    "particle": "heart_and_soul:blocks/heart_ore"
+  }
+}

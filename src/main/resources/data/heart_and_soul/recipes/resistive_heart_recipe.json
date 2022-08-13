@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:shield"
+    },
+    {
+      "item": "heart_and_soul:heart_stone"
+    },
+    {
+      "item": "minecraft:shield"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "heart_and_soul:resistive_heart_charm",
+    "count": 1
+  }
+}

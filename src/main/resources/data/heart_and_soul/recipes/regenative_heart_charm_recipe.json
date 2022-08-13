@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "minecraft:rabbit_stew"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "heart_and_soul:heart_stone"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:rabbit_stew"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    }
+  ],
+  "result": {
+    "item": "heart_and_soul:regenative_heart_charm",
+    "count": 1
+  }
+}

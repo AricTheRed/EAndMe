@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "heart_and_soul:heart_stone"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "result": {
+    "item": "heart_and_soul:firey_heart_charm",
+    "count": 1
+  }
+}

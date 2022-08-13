@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.LEATHER_BOOTS"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:HeartStone"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.POTIONITEM"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "Items.LEATHER_BOOTS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpeedySoulCharm"
+    },
+    "name": "speedy_soul_charm_recipe",
+    "namespace": "mod"
+  }
+}

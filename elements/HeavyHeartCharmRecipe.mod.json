@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.SHULKER_SHELL"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:HeartStone"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "Items.POTIONITEM"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.SHULKER_SHELL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HeavyHeartCharm"
+    },
+    "name": "heavy_heart_charm_recipe",
+    "namespace": "mod"
+  }
+}

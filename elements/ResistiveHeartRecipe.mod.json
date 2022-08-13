@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Blocks.SMOOTH_STONE"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "Items.SHIELD"
+      },
+      {
+        "value": "CUSTOM:HeartStone"
+      },
+      {
+        "value": "Items.SHIELD"
+      },
+      {
+        "value": "Items.POTIONITEM"
+      },
+      {
+        "value": "Blocks.SMOOTH_STONE"
+      },
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ResistiveHeartCharm"
+    },
+    "name": "resistive_heart_recipe",
+    "namespace": "mod"
+  }
+}
